@@ -1,4 +1,4 @@
-package entity;
+package com.web.entity;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Getter;

@@ -1,4 +1,5 @@
-package entity;
+package com.web.entity;
+
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Getter;
@@ -7,10 +8,10 @@ import lombok.Setter;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "product_comment_image")
+@Table(name = "product_image")
 @Getter
 @Setter
-public class ProductCommentImage {
+public class ProductImage {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,7 +21,8 @@ public class ProductCommentImage {
     private String linkImage;
 
     @ManyToOne
-    @JoinColumn(name = "product_comment_id")
+    @JoinColumn(name = "product_id")
     @JsonBackReference
-    private ProductComment productComment;
+    private Product product;
 }
+
