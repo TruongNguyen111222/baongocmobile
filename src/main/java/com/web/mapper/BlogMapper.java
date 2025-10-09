@@ -1,7 +1,6 @@
 package com.web.mapper;
 
-import com.web.dto.request.BlogRequest;
-import com.web.dto.response.BlogResponse;
+
 import com.web.entity.Blog;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
