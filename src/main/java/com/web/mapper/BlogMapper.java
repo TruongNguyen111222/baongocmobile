@@ -18,27 +18,27 @@ public class BlogMapper {
     @Autowired
     private UserMapper userMapper;
 
-    public Blog requestToBlog(BlogRequest request){
+    public Blog requestToBlog(BlogRequest request) {
         Blog blog = mapper.map(request, Blog.class);
         return blog;
     }
 
-    public BlogResponse blogToResponse(Blog blog){
+    public BlogResponse blogToResponse(Blog blog) {
         BlogResponse response = mapper.map(blog, BlogResponse.class);
         response.setUser(userMapper.userToUserDto(blog.getUser()));
         return response;
     }
 
-    public BlogResponse blogToResponseD2(Blog blog){
+    public BlogResponse blogToResponseD2(Blog blog) {
         BlogResponse response = new BlogResponse();
         response.setContent(blog.getContent());
         response.setCreatedDate(blog.getCreatedDate());
         return response;
     }
 
-    public List<BlogResponse> listBlogToResponse(List<Blog> list){
+    public List<BlogResponse> listBlogToResponse(List<Blog> list) {
         List<BlogResponse> result = new ArrayList<>();
-        for(Blog b: list){
+        for (Blog b : list) {
             result.add(blogToResponse(b));
         }
         return result;
