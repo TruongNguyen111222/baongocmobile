@@ -1,11 +1,9 @@
-package com.web.mapper;
+package com.web.servive;
 
 import com.web.dto.request.UserAdressRequest;
 import com.web.dto.response.UserAdressResponse;
-import com.web.dto.response.UserDto;
-import com.web.entity.Category;
-import com.web.entity.User;
 import com.web.entity.UserAddress;
+import com.web.mapper.UserMapper;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
