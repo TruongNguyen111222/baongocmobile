@@ -9,7 +9,6 @@ import com.web.mapper.ProductCommentMapper;
 import com.web.repository.ProductCommentImageRepository;
 import com.web.repository.ProductCommentRepository;
 import com.web.servive.ProductCommentService;
-import com.web.utils.UserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
