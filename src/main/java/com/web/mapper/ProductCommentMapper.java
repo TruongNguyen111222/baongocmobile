@@ -4,7 +4,6 @@ import com.web.dto.request.CommentRequest;
 import com.web.dto.response.ProductCommentResponse;
 import com.web.entity.ProductComment;
 import com.web.entity.User;
-import com.web.utils.UserUtils;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

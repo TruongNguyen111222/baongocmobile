@@ -13,8 +13,6 @@ import com.web.mapper.UserMapper;
 import com.web.repository.UserRepository;
 import com.web.servive.GoogleOAuth2Service;
 import com.web.servive.UserService;
-import com.web.utils.MailService;
-import com.web.utils.UserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
