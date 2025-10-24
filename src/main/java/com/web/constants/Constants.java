@@ -1,4 +1,4 @@
-package com.web.constans;
+package com.web.constants;
 
 public final class Constants {
     public static final String LANGUAGE_VI = "vi";
