@@ -1,4 +1,4 @@
-package com.web.constans;
+package com.web.constants;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
