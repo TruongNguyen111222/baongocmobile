@@ -1,6 +1,5 @@
 package com.web.serviceImp;
 
-import com.web.config.Environment;
 import com.web.dto.request.InvoiceRequest;
 import com.web.dto.response.CartResponse;
 import com.web.dto.response.InvoiceResponse;
@@ -9,8 +8,6 @@ import com.web.enums.PayType;
 import com.web.enums.StatusInvoice;
 import com.web.exception.MessageException;
 import com.web.mapper.InvoiceMapper;
-import com.web.models.QueryStatusTransactionResponse;
-import com.web.processor.QueryTransactionStatus;
 import com.web.repository.*;
 import com.web.servive.CartService;
 import com.web.servive.InvoiceService;
